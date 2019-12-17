@@ -1,0 +1,23 @@
+
+
+.todo-form{
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+
+.todo-form input{
+    padding: 0.3rem;
+}
+
+.todo-form .full{
+    width: 100%;
+}
+
+.todo-form label{
+    display:block;
+    padding-bottom:10px;
+}
+
+.todo-form .form-group{
+    padding-bottom: 1rem;
+}

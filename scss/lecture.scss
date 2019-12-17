@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+}
+
+$pink:#FA77FF;
+
+
+.todo-list{
+      width: 80vw - 10vw;
+      margin:0.8rem 0;
+      padding: 0.8rem;
+      background:$pink;
+
+  .todo{
+    padding: 0.5rem;
+
+    > div{
+      background: #5a6268;
+      @media screen and(max-width: 768px){
+        background: #0c5460;
+        @media screen and(max-width: 1024px) {
+          background: #af957e;
+        }
+      }
+    }
+
+    > h4{
+      text-decoration:#0A246A;
+
+      &:hover {
+        text-decoration: #bb2a2a;
+      }
+    }
+  }
+}

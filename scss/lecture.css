@@ -1,0 +1,25 @@
+html {
+  font-size: 16px; }
+
+.todo-list {
+  width: 70vw;
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+  background: #FA77FF; }
+  .todo-list .todo {
+    padding: 0.5rem; }
+    .todo-list .todo > div {
+      background: #5a6268; }
+      @media screen and (max-width: 768px) {
+        .todo-list .todo > div {
+          background: #0c5460; } }
+  @media screen and (max-width: 768px) and (max-width: 1024px) {
+    .todo-list .todo > div {
+      background: #af957e; } }
+
+    .todo-list .todo > h4 {
+      text-decoration: #0A246A; }
+      .todo-list .todo > h4:hover {
+        text-decoration: #bb2a2a; }
+
+/*# sourceMappingURL=lecture.css.map */
